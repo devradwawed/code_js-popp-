@@ -1,0 +1,60 @@
+
+body{
+  font-family: 'Segoe UI light' ;
+}
+
+.item{
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.item .item-caption h4{
+  color: #eeb347;
+  font-size: 30px;
+  font-weight: 600;
+}
+.item .item-caption p {
+  font-size: 18px;
+  line-height: 29px;
+  width: 90%;
+  font-weight: 500;
+  color: #989292;
+}
+.light-box-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  transform: scale(0.0);
+  -webkit-transform: scale(0.0);
+  -moz-transform: scale(0.0);
+  -ms-transform: scale(0.0);
+  -o-transform: scale(0.0);
+  transition:all .6s ease-in-out  ;
+  -webkit-transition:all .6s ease-in-out  ;
+  -moz-transition:all .6s ease-in-out  ;
+  -ms-transition:all .6s ease-in-out  ;
+  -o-transition:all .6s ease-in-out  ;
+}
+.light-box-item{
+  background-image: url("../img/peynir7-1.jpg");
+  width: 50%;
+  height: 440px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition:all .10s ease-in-out  ;
+  -webkit-transition:all .10s ease-in-out  ;
+  -moz-transition:all .10s ease-in-out  ;
+  -ms-transition:all .10s ease-in-out  ;
+  -o-transition:all .10s ease-in-out  ;
+}
+.light-box-item i{
+  cursor: pointer;
+}
+#close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
